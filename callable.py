@@ -23,9 +23,8 @@ def main():
     resolve("bbc.co.uk")
     resolve("google.com")
 
-    resolve("bbc.co.uk")
     print(resolve._cache)
-    resolve("google.com")
+    resolve("archlinux.org")
     print(resolve._cache)
 
 
