@@ -16,11 +16,19 @@ class Resolver:
 
         return self._cache[host]
 
-resolve = Resolver()
-resolve("bbc.co.uk")
-resolve("google.com")
 
-resolve("bbc.co.uk")
-print(resolve._cache)
-resolve("google.com")
-print(resolve._cache)
+def main():
+
+    resolve = Resolver()
+    resolve("bbc.co.uk")
+    resolve("google.com")
+
+    resolve("bbc.co.uk")
+    print(resolve._cache)
+    resolve("google.com")
+    print(resolve._cache)
+
+
+if __name__ == "__main__":
+
+    main()
