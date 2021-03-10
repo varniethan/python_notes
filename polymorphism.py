@@ -91,9 +91,6 @@ def main():
     print(Duck.mro())
 
 
-
-    
-
 if __name__ == "__main__":
 
     main()

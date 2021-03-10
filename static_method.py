@@ -31,6 +31,7 @@ def main():
 
     # Without instantiation
 
+    calculator.add(1, 2)
     print(calculator.add(1, 2))
     print(calculator.subtract(2, 1))
     print(calculator.multiply(2, 3))
