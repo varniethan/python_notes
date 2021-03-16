@@ -74,6 +74,7 @@ def main():
 
     penguin_1 = Penguin("Issac")
     duck_1 = Duck("Alex")
+    duck_2 = Duck("alexander")
 
     test_noise(penguin_1)
     test_noise(duck_1)
@@ -82,6 +83,8 @@ def main():
     test_swimming(duck_1)
     print("\n")
     test_flying(penguin_1)
+    test_flying(duck_1)
+    test_flying(duck_1)
     test_flying(duck_1)
     print("\n")
 
