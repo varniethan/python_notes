@@ -1,2 +1,3 @@
 # python_examples
-A set of useful python examples.
+
+Some useful examples of OOP
