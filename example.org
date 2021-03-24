@@ -2,13 +2,30 @@
 #+AUTHOR: Alex.
 #+DATE: <2021-03-15 Mon>
 
-* Contents
-:CONTENTS:
+* Contents                                                              :TOC:
+- [[#headings][Headings]]
+  - [[#subheadings][Subheadings]]
+  - [[#second-subheading][Second Subheading]]
+  - [[#adjusting-headings][Adjusting headings]]
+- [[#styles][Styles]]
+- [[#tables][Tables]]
+  - [[#example][Example]]
+- [[#checklists][Checklists]]
+  - [[#simple-list][Simple list]]
+  - [[#numbered-list][Numbered list]]
+  - [[#check-boxes][Check Boxes]]
+- [[#statuses][Statuses]]
+  - [[#try-emacs][try emacs]]
+  - [[#test-org-mode][test org mode]]
+- [[#dates][Dates]]
+- [[#general-testing][General Testing]]
+  - [[#this-is-a-subheading-within-the-test-category][This is a subheading within the test category]]
+  - [[#this-is-the-second-subheading][This is the second subheading]]
+  - [[#fonts][Fonts]]
+- [[#source-blocks][Source blocks]]
+- [[#links][Links]]
+  - [[#example-1][Example]]
 
-:END:
-:PROPERTIES:
-:TOC:      :include all :depth 8
-:END:
 * Headings
 
 hello this is going to be a long line of text. let's see if line wrapping happens, oh good it does.
