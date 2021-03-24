@@ -1,8 +1,8 @@
 #+TITLE: Test Document
 #+AUTHOR: Alex.
 #+DATE: <2021-03-15 Mon>
-[[*Headings][Headings]]
 
+* Contents                                                         :contents:
 * Headings
 
 hello this is going to be a long line of text. let's see if line wrapping happens, oh good it does.
