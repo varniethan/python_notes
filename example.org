@@ -1,0 +1,142 @@
+#+TITLE: Test Document
+#+AUTHOR: Alex.
+#+DATE: <2021-03-15 Mon>
+[[*Headings][Headings]]
+
+* Headings
+
+hello this is going to be a long line of text. let's see if line wrapping happens, oh good it does.
+You can use subheadings like this:
+
+** Subheadings
+
+Any text can go here.
+hello my name is alex.
+this is a test.
+hello again.
+I am doing some more testing.
+Hello this is org mode.
+
+*** Third level heading
+
+Here is some text under the third level heading.
+** Second Subheading
+
+There is some more text here.
+And there is more text on this line.
+This line of text is for testing purposes.
+The same is true of this line.
+
+** Adjusting headings
+
+The position of headings can be adjusted.
+
+- use C with up and down to move a heading.
+- use C with left and right to demote/promote a heading.
+
+* Styles
+
+*Bold*
+/Italic/
+_Underlined_
+
+* Tables 
+
+To create a table use the '|' character.
+Press 'TAB' to format the table.
+For a boundary row type '|-' and then 'TAB' to format the table.
+
+** Example
+
+Here is a table in org mode.
+See instructions above on how to recreate.
+
+|---------+--------+-----------------------|
+| Name    | Number |                   Age |
+|---------+--------+-----------------------|
+| alex    |     16 |             133457332 |
+| benjy   |     14 |         9823456237456 |
+| Richard | 384957 | 834957629034692837549 |
+|---------+--------+-----------------------|
+* Checklists 
+
+** Simple list
+
+At the end of every line use: 'M-RET'.
+
+- first item
+- second item
+- third item
+- fourth item
+
+** Numbered list
+
+At the end of every line use: 'M-RET'.
+
+1. Hello
+2. hello again
+3. hello for the third time
+
+** Check Boxes
+
+Press 'SHIFT-M-RET' to create a check box below
+- [x] Task 1
+- [ ] Task 2
+- [ ] Task 3 
+* Statuses
+
+** DONE try emacs
+   i tries emacs.
+   i like to use emacs.
+   i used to use vim.
+   
+** TODO test org mode
+
+This is a helpfull mode in emacs:
+
+1. First of all create a heading.
+2. Then use "SHIFT" with an arrow key to adjust the status.
+
+The default action are:
+
+- "SHIFT" left/right to cycle between todo and done.
+- "SHIFT" up/down to adjust the urgency (could be A, B, C).
+* Dates
+
+You can of course insert dates with emacs.
+use C-c . 
+C-c brings up a list of org mode features.
+Here is an examle: <2021-03-15 Mon>
+* General Testing
+
+This section of text is describing this category
+
+** This is a subheading within the test category
+
+This is some text within the first subheading.
+*** This is a third level heading
+I put This heading in just to check everything was working.
+
+** This is the second subheading
+
+Here Is some test within the second subheading.
+
+Where will this go I wonder?
+
+** Fonts
+I am using the roboto font.
+It is a variable width font, but it is working fine.
+* Source blocks
+
+Emacs org mode gives you the ability to do 'literate' programming.
+That is, documenting a program and then including the coded solution within a source block.
+* Links
+
+Org mode supports links to other places in the file system.
+
+** Example
+
+[[*Headings][Headings]]
+[[*Statuses][Statuses]]
+
+hello my name is alex.
