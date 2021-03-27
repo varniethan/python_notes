@@ -65,16 +65,19 @@ def test_flying(animal):
 
 def main():
 
-    penguin_1 = Penguin("penguin")
+    penguin_1 = Penguin("john")
     duck_1 = Duck("alexander")
 
     test_noise(penguin_1)
     test_noise(duck_1)
+
     print("\n")
     test_swimming(penguin_1)
+    print("\n")
     test_swimming(duck_1)
     print("\n")
     test_flying(penguin_1)
+    print("\n")
     test_flying(duck_1)
     print("\n")
 
