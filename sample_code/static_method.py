@@ -1,9 +1,3 @@
-#!/usr/bin/python3
-
-# This is an example of the use of static methods
-# Static methods are bound to the class
-# This is a way to group functions
-
 class calculator:
 
     @staticmethod

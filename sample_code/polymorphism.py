@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import abc
 
 class Animal(abc.ABC):
@@ -7,9 +5,11 @@ class Animal(abc.ABC):
     @abc.abstractmethod
     def go_swimming(self):
         pass
+
     @abc.abstractmethod
     def go_flying(self):
         pass
+
     @abc.abstractmethod
     def make_noise(self):
         pass
@@ -51,11 +51,6 @@ class Penguin(Bird):
         Bird.go_flying(self)
         print("Because I am a penguin I cannot fly.")
 
-
-# Extend this model with another animal ...
-
-#####################################################################################################
-
 def test_noise(animal):
     
     animal.make_noise()
@@ -68,13 +63,10 @@ def test_flying(animal):
 
     animal.go_flying()
 
-#######################################################################################################
-
 def main():
 
-    penguin_1 = Penguin("Issac")
-    duck_1 = Duck("Alex")
-    duck_2 = Duck("alexander")
+    penguin_1 = Penguin("penguin")
+    duck_1 = Duck("alexander")
 
     test_noise(penguin_1)
     test_noise(duck_1)
@@ -84,15 +76,7 @@ def main():
     print("\n")
     test_flying(penguin_1)
     test_flying(duck_1)
-    test_flying(duck_1)
-    test_flying(duck_1)
     print("\n")
-
-    # Remember classes are objects too
-    # Using this inbuilt function we can see how the class is derived.
-    print(Penguin.mro())
-    print(Duck.mro())
-
 
 if __name__ == "__main__":
 
